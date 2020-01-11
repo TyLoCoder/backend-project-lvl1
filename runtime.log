@@ -1,0 +1,21 @@
+== Started ==
+
+> Got '/auth/in/tylo/mk'
+-> Check: tylo == admin
+-> Check: tylo == tylo
+--> True, check password: mk == mkhck
+---> Password check failed, returning error
+----------- END -----------
+
+> Got '/auth/in/tylo/mkhck'
+-> Check: tylo == admin
+-> Check: tylo == tylo
+--> True, check password: mkhck == mkhck
+---> True, created token: U0NfVE9LRU4=:u
+---> Returning token in json
+----------- END -----------
+
+> Got '/auth/add/tylodesu/mkhck/0/a'
+--> Account created, writing changes
+---> Changes writed
+----------- END -----------
